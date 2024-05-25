@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+    background:white;
+    /* margin: 5px;
+    padding: 5px; */
+}
+.bg-skyblue {
+  background-color:#9ADEE8;
+}
+.navbar-brand img{
+  margin-left: 80px;
+  width: 270px;
+}
+.image-fluid {
+    height: 100px
+}
+.navbar-nav{
+    margin-left: 180px;
+   
+}
+.navbar{
+  padding: 0;
+}
+
+.smallcontainer{
+    background-color: skyblue;
+    text-align: center;
+    font-weight: 400;
+}
+#movingText {
+    font-weight: bold;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .centered-div {
+    text-align: center;
+    background: #D8BFD8;
+  }
+.centered-div h1{
+  margin: 20px;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.centered-div h4{
+  text-decoration: none;
+}
+.container1{
+  background: #D8BFD8;
+}
+  .custom-toggler {
+    width: 50%;
+  }
+
+.footer{
+    background-color: skyblue;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 767px) {
+    .card { 
+      margin: 50px; 
+      padding: 50px;
+    }
+  }
+  
+  .card-content {
+    padding: 20px;
+  } 
+  
+ 
+  @media (min-width: 768px){
+  .navbar span{
+    width:50%;
+    margin: 0;
+    }
+  }
+  .container2{
+    background-color: #D8BFD8;
+  }
+  .container3{
+    background-color: #D8BFD8;
+  }
+  .container4{
+    background-color: #D8BFD8;
+    padding-top: 30px;
+  }
+  .container4 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  .container4 h1{
+    color: white;
+    text-decoration: none;
+  }
+  @media (max-width: 768px) {
+    .text-center img {
+      width: 100%; /* Set the image width to 100% of the container */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  #social-sticky {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+#social-sticky a {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+
+@media (max-width: 767.98px) {
+    .social-icons {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.text-reset {
+  text-decoration: none;
+}
+/* Add this CSS to your existing styles */
+.card-container {
+  display: flex;
+  overflow-x: hidden;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  flex: 0 0 auto;
+  margin: 0 10px;
+}
+#arrowButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: rgba(243, 243, 13, 0.829);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#arrowButton.show {
+  display: block;
+}
+
+
+
+/* For small devices (576px and below) */
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* For medium devices (768px and below) */
+@media (min-width: 576px) {
+  .btn {
+    flex-basis: 48%; /* Two buttons per row */
+    margin-right: 2%; /* Spacing between buttons */
+    margin-bottom: 10px;
+  }
+}
+
+/* For large devices (992px and below) */
+@media (min-width: 768px) {
+  .btn {
+    flex-basis: 30%; /* Three buttons per row */
+    margin-right: 2%; /* Spacing between buttons */
+    margin-bottom: 10px;
+  }
+}
+
+/* For extra large devices (1200px and below) */
+@media (min-width: 992px) {
+  .btn {
+    flex-basis: 23%; /* Four buttons per row */
+    margin-right: 2%; /* Spacing between buttons */
+    margin-bottom: 10px;
+  }
+}
+#prevButton{
+  width: 100px;
+  margin-top: 7px;
+}
+#nextButton {
+  width: 100px;
+  margin-top: 7px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+.modal-header{
+  background-color: #9ADEE8;
+}
+.modal-body{
+  background-color: #D8BFD8;
+}
